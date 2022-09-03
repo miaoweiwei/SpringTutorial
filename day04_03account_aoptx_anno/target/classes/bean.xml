@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:sop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置Spring创建IOC容器时要扫描的包-->
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+
+    <!--配置 QueryRunner 对象，因为 bean 对象默认是单例对象，所以有可能发生线程安全问题。所以让scope设置为prototype为多例-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <!--注入数据源， 因为我们使用的是绑定在线程上的连接，所以这个不用传数据源-->
+        <!--<constructor-arg name="ds" ref="dataSource"></constructor-arg>-->
+    </bean>
+
+    <!--配置数据源,使用数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--注入链接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+
+    <!--开启Spring对注解AOP的支持-->
+    <sop:aspectj-autoproxy></sop:aspectj-autoproxy>
+</beans>

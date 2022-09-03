@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="day03_06annotationAdvice" />
         <module name="day01_04bean" />
         <module name="day03_01account" />
         <module name="day04_06tx_anno" />
@@ -30,30 +31,5 @@
         <module name="day02_01anno_ioc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="day01_01jdbc" target="1.5" />
-      <module name="day01_02factory" target="1.5" />
-      <module name="day01_03spring" target="1.5" />
-      <module name="day01_04bean" target="1.5" />
-      <module name="day01_05DI" target="1.5" />
-      <module name="day02_01anno_ioc" target="1.5" />
-      <module name="day02_02account_xml_ioc" target="1.5" />
-      <module name="day02_03account_anno_ioc" target="1.5" />
-      <module name="day02_04account_anno_ioc_withoutXml" target="1.5" />
-      <module name="day03_01account" target="1.5" />
-      <module name="day03_02proxy" target="1.5" />
-      <module name="day03_03springAOP" target="1.5" />
-      <module name="day03_04adviceType" target="1.5" />
-      <module name="day03_05annotationAOP" target="1.5" />
-      <module name="day03_06accountAOP" target="1.5" />
-      <module name="day04_01jdbcTemplate" target="1.5" />
-      <module name="day04_02account_aoptx_xml" target="1.5" />
-      <module name="day04_03account_aoptx_anno" target="1.5" />
-      <module name="day04_04tx" target="1.5" />
-      <module name="day04_05_tx_xml" target="1.5" />
-      <module name="day04_06tx_anno" target="1.5" />
-      <module name="day04_07anno_tx_withoutxml" target="1.5" />
-      <module name="day04_08account_tx" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,28 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day01_01jdbc/day01_01jdbc.iml" filepath="$PROJECT_DIR$/day01_01jdbc/day01_01jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day01_02factory/day01_02factory.iml" filepath="$PROJECT_DIR$/day01_02factory/day01_02factory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day01_03spring/day01_03spring.iml" filepath="$PROJECT_DIR$/day01_03spring/day01_03spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day01_04bean/day01_04bean.iml" filepath="$PROJECT_DIR$/day01_04bean/day01_04bean.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day01_05DI/day01_05DI.iml" filepath="$PROJECT_DIR$/day01_05DI/day01_05DI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02_01anno_ioc/day02_01anno_ioc.iml" filepath="$PROJECT_DIR$/day02_01anno_ioc/day02_01anno_ioc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02_02account_xml_ioc/day02_02account_xml_ioc.iml" filepath="$PROJECT_DIR$/day02_02account_xml_ioc/day02_02account_xml_ioc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02_03account_anno_ioc/day02_03account_anno_ioc.iml" filepath="$PROJECT_DIR$/day02_03account_anno_ioc/day02_03account_anno_ioc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02_04account_anno_ioc_withoutXml/day02_04account_anno_ioc_withoutXml.iml" filepath="$PROJECT_DIR$/day02_04account_anno_ioc_withoutXml/day02_04account_anno_ioc_withoutXml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03_01account/day03_01account.iml" filepath="$PROJECT_DIR$/day03_01account/day03_01account.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03_02proxy/day03_02proxy.iml" filepath="$PROJECT_DIR$/day03_02proxy/day03_02proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03_03springAOP/day03_03springAOP.iml" filepath="$PROJECT_DIR$/day03_03springAOP/day03_03springAOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03_04adviceType/day03_04adviceType.iml" filepath="$PROJECT_DIR$/day03_04adviceType/day03_04adviceType.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03_05annotationAOP/day03_05annotationAOP.iml" filepath="$PROJECT_DIR$/day03_05annotationAOP/day03_05annotationAOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_01jdbcTemplate/day04_01jdbcTemplate.iml" filepath="$PROJECT_DIR$/day04_01jdbcTemplate/day04_01jdbcTemplate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_02account_aoptx_xml/day04_02account_aoptx_xml.iml" filepath="$PROJECT_DIR$/day04_02account_aoptx_xml/day04_02account_aoptx_xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_03account_aoptx_anno/day04_03account_aoptx_anno.iml" filepath="$PROJECT_DIR$/day04_03account_aoptx_anno/day04_03account_aoptx_anno.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_04tx/day04_04tx.iml" filepath="$PROJECT_DIR$/day04_04tx/day04_04tx.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_05_tx_xml/day04_05_tx_xml.iml" filepath="$PROJECT_DIR$/day04_05_tx_xml/day04_05_tx_xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_06tx_anno/day04_06tx_anno.iml" filepath="$PROJECT_DIR$/day04_06tx_anno/day04_06tx_anno.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_07anno_tx_withoutxml/day04_07anno_tx_withoutxml.iml" filepath="$PROJECT_DIR$/day04_07anno_tx_withoutxml/day04_07anno_tx_withoutxml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_08account_tx/day04_08account_tx.iml" filepath="$PROJECT_DIR$/day04_08account_tx/day04_08account_tx.iml" />
     </modules>
   </component>
 </project>
